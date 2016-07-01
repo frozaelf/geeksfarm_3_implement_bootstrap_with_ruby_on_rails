@@ -1,0 +1,5 @@
+<%- headers = ['Title', 'Content'] -%>
+<%= Article.generate_line headers %>
+<%- @articles.each do |article| -%>
+<%= Article.generate_line([article.title, article.content]) -%>
+<%- end -%>

@@ -1,0 +1,28 @@
+<% content_for :head do %>
+ <title>CK Editor</title>
+ <meta name="description" content=""> 
+<% end %>
+<div class="row">
+  	<div class="col-md-12">
+	    <div id='instructions'>
+	      <h1>Ckeditor</h1>
+	     	<p>
+	      		Dokumentasinya ada di GitHub: <a href="https://github.com/galetahub/ckeditor">galetahub/ckeditor</a>
+	      	</p>
+	     	<p>
+	     		<pre class="brush: ruby">
+    config/routes.rb
+</pre>
+	      		gem 'ckeditor'<br>
+	      		gem 'paperclip'<br>
+	      		<br>
+	      		rails generate ckeditor:install --orm=active_record --backend=paperclip<br>
+	      		config/routes.rb<br>
+	      		mount Ckeditor::Engine => "/ckeditor"<br>
+	      		app/assets/javascripts/application.js
+	      		//= require ckeditor/init
+	      	</p>
+	    </div>
+  		<%= cktext_area :content, class: "ckeditor"%>
+  	</div>
+</div>

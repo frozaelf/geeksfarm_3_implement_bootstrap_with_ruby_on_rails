@@ -1,0 +1,40 @@
+class SampleController < ApplicationController
+  def index
+  end
+
+  def new
+  end
+
+  def gmaps
+  end
+
+  def ckeditor
+  end
+
+  def paperclip
+  end
+
+  def growl
+  end
+
+  def recaptcha
+  end
+
+  def friendly_id
+  end
+
+  def kaminari
+  end
+
+  def prawn
+  end
+
+  def datatables
+  end
+
+  def redis
+  end
+
+  def chartkick
+  end
+end

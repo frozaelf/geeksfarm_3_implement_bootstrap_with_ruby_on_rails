@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<item value="auto" key="selection"/>
+		<list key="findhistory">
+			<item value="auto"/>
+			<item value="jquery"/>
+			<item value="import_csv"/>
+			<item value="capi"/>
+			<item value="@admin_article"/>
+			<item value="admin_article"/>
+			<item value="redist"/>
+			<item value="p-a"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="244" key="DIALOG_Y_ORIGIN"/>
+		<item value="378" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

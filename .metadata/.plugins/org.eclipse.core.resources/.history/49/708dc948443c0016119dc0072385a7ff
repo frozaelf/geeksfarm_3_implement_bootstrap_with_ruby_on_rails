@@ -1,0 +1,5 @@
+<%- headers = ['Title', 'Content'] -%>
+<%= CSV.generate_line headers %>
+<%- @articles.each do |article| -%>
+<%= CSV.generate_line([article.title, article.content]) -%>
+<%- end -%>

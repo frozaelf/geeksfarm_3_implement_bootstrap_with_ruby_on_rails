@@ -1,0 +1,9 @@
+<div class='gmaps'>
+  <div class='input-gmaps-autocomplete'>
+    <input id='gmaps-input-address'placeholder='Start typing a place name...' type='text' />
+
+    <div id='gmaps-error'></div>
+  </div>
+
+  <div id='gmaps-canvas'></div>
+</div>

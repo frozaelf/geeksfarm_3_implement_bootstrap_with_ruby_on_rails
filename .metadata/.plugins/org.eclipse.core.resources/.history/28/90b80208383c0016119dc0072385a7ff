@@ -1,0 +1,1 @@
+	<% puts Article.all.where(slug:params[:id]) %> 

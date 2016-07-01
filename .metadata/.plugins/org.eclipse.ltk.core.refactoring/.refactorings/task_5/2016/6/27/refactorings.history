@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;task_5/app/views/admin/articles/export_csv.html.erb&apos; to &apos;export_csv.csv.erb&apos;" description="Rename resource &apos;export_csv.html.erb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/views/admin/articles/export_csv.html.erb" name="export_csv.csv.erb" stamp="1467017272152" updateReferences="true"/>
+</session>

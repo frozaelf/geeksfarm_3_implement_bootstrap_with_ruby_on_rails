@@ -1,0 +1,9 @@
+<% content_for :head do %>
+ <title>Gem Gmaps</title>
+ <meta name="description" content=""> 
+<% end %>
+<div class="row">
+  	<div class="col-md-12">
+  		<%= cktext_area :content, class: "ckeditor"%>
+  	</div>
+</div>
